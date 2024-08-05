@@ -94,7 +94,7 @@ if web=="Home":
     slt.markdown("Streamlit: Developed an interactive web application using Streamlit, a user-friendly framework for data visualization and analysis.")
     slt.subheader(":blue[Skill-take:]")
     slt.markdown("Selenium, Python, Pandas, MySQL,mysql-connector-python, Streamlit.")
-    slt.subheader(":blue[Developed-by:]  Kavitha Thangavel")
+    slt.subheader(":blue[Developed-by:] Sathiyaseelan ")
 
 # States and Routes page setting
 if web == "📍States and Routes":
@@ -113,7 +113,7 @@ if web == "📍States and Routes":
         K = slt.selectbox("List of routes",lists_k)
 
         def type_and_fare(bus_type, fare_range):
-            conn = mysql.connector.connect(host="localhost", user="root", password="kavi", database="RED_BUS_DETAILS")
+            conn = mysql.connector.connect(host="localhost", user="root", password="", database="RED_BUS_DETAILS")
             my_cursor = conn.cursor()
             # Define fare range based on selection
             if fare_range == "50-1000":
@@ -156,7 +156,7 @@ if web == "📍States and Routes":
         A=slt.selectbox("list of routes",lists_A)
 
         def type_and_fare_A(bus_type, fare_range):
-            conn = mysql.connector.connect(host="localhost", user="root", password="kavi", database="RED_BUS_DETAILS")
+            conn = mysql.connector.connect(host="localhost", user="root", password="", database="RED_BUS_DETAILS")
             my_cursor = conn.cursor()
             # Define fare range based on selection
             if fare_range == "50-1000":
@@ -200,7 +200,7 @@ if web == "📍States and Routes":
         T=slt.selectbox("list of routes",lists_T)
 
         def type_and_fare_T(bus_type, fare_range):
-            conn = mysql.connector.connect(host="localhost", user="root", password="kavi", database="RED_BUS_DETAILS")
+            conn = mysql.connector.connect(host="localhost", user="root", password="", database="RED_BUS_DETAILS")
             my_cursor = conn.cursor()
             # Define fare range based on selection
             if fare_range == "50-1000":
@@ -243,7 +243,7 @@ if web == "📍States and Routes":
         G=slt.selectbox("list of routes",lists_g)
 
         def type_and_fare_G(bus_type, fare_range):
-            conn = mysql.connector.connect(host="localhost", user="root", password="kavi", database="RED_BUS_DETAILS")
+            conn = mysql.connector.connect(host="localhost", user="root", password="", database="RED_BUS_DETAILS")
             my_cursor = conn.cursor()
             # Define fare range based on selection
             if fare_range == "50-1000":
@@ -286,7 +286,7 @@ if web == "📍States and Routes":
         R=slt.selectbox("list of routes",lists_R)
 
         def type_and_fare_R(bus_type, fare_range):
-            conn = mysql.connector.connect(host="localhost", user="root", password="kavi", database="RED_BUS_DETAILS")
+            conn = mysql.connector.connect(host="localhost", user="root", password="", database="RED_BUS_DETAILS")
             my_cursor = conn.cursor()
             # Define fare range based on selection
             if fare_range == "50-1000":
@@ -330,7 +330,7 @@ if web == "📍States and Routes":
         SB=slt.selectbox("list of rotes",lists_SB)
 
         def type_and_fare_SB(bus_type, fare_range):
-            conn = mysql.connector.connect(host="localhost", user="root", password="kavi", database="RED_BUS_DETAILS")
+            conn = mysql.connector.connect(host="localhost", user="root", password="", database="RED_BUS_DETAILS")
             my_cursor = conn.cursor()
             # Define fare range based on selection
             if fare_range == "50-1000":
@@ -373,7 +373,7 @@ if web == "📍States and Routes":
         H=slt.selectbox("list of rotes",lists_H)
 
         def type_and_fare_H(bus_type, fare_range):
-            conn = mysql.connector.connect(host="localhost", user="root", password="kavi", database="RED_BUS_DETAILS")
+            conn = mysql.connector.connect(host="localhost", user="root", password="", database="RED_BUS_DETAILS")
             my_cursor = conn.cursor()
             # Define fare range based on selection
             if fare_range == "50-1000":
@@ -417,7 +417,7 @@ if web == "📍States and Routes":
         AS=slt.selectbox("list of rotes",lists_AS)
 
         def type_and_fare_AS(bus_type, fare_range):
-            conn = mysql.connector.connect(host="localhost", user="root", password="kavi", database="RED_BUS_DETAILS")
+            conn = mysql.connector.connect(host="localhost", user="root", password="", database="RED_BUS_DETAILS")
             my_cursor = conn.cursor()
             # Define fare range based on selection
             if fare_range == "50-1000":
@@ -460,7 +460,7 @@ if web == "📍States and Routes":
         UP=slt.selectbox("list of rotes",lists_UP)
 
         def type_and_fare_UP(bus_type, fare_range):
-            conn = mysql.connector.connect(host="localhost", user="root", password="kavi", database="RED_BUS_DETAILS")
+            conn = mysql.connector.connect(host="localhost", user="root", password="", database="RED_BUS_DETAILS")
             my_cursor = conn.cursor()
             # Define fare range based on selection
             if fare_range == "50-1000":
@@ -503,7 +503,7 @@ if web == "📍States and Routes":
         WB=slt.selectbox("list of rotes",lists_WB)
 
         def type_and_fare_WB(bus_type, fare_range):
-            conn = mysql.connector.connect(host="localhost", user="root", password="kavi", database="RED_BUS_DETAILS")
+            conn = mysql.connector.connect(host="localhost", user="root", password="", database="RED_BUS_DETAILS")
             my_cursor = conn.cursor()
             # Define fare range based on selection
             if fare_range == "50-1000":
